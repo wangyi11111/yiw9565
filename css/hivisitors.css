@@ -14,7 +14,8 @@ h{
 
 footer{
     background-color: #8B8B8B;
-    height: 300px;
+    text-align: center;
+    padding: 50px;
 }
 p {
     color: #8B8B8B;
