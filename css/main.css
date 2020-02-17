@@ -329,6 +329,7 @@ time {
 
 /* The screen (or content) of the device */
 .smartphone .content {
+    overflow: hidden;
     display: block;
     width: 260px;
     height: 500px;
