@@ -1,4 +1,8 @@
 h{
+/*
+     font-family:Pingfang；
+     src:url(resource/PingFang.ttc);
+*/
     font-family:futura;
      src:url(resource/Futura.ttc);
     text-decoration: ;
@@ -15,7 +19,8 @@ footer{
 }
 p {
     color: #8B8B8B;
-    font-family:思源宋体 SC-Bold.otf
+    font-family:Pingfang;
+        src:url(resource/PingFang.ttc);
 }
 
 oh {
@@ -55,10 +60,15 @@ cl{
     margin: 0 auto;
 }
 .tag2 p{
-/*      -webkit-transform: rotate(-90deg); */
     transform: rotate(0deg);
     text-align: center;
     margin-top: -300px;
+    margin-bottom: ;
+}
+.tag3 p{
+    transform: rotate(0deg);
+    text-align: center;
+    margin-top: -;
     margin-bottom: 200px;
 }
 .begin {
@@ -334,7 +344,6 @@ time {
     width: 260px;
     height: 500px;
     background: white;
-    overflow: auto;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -345,13 +354,20 @@ time {
 
 
 .tag {
-
-    margin: -100px 150px 0 0;
-    float: right;
+    margin: -320px 0 0 690px;
+    float: left;
     text-align: left;
     line-height: 10px;
     font-size:
 }
+.tag4 {
+ margin: -220px 0 0 690px;
+    float: left;
+    text-align: left;
+    line-height: 10px;
+    font-size:
+}
+
 
 .tag h1 {
     margin: -10px 0px;
