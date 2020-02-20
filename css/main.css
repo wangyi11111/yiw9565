@@ -19,8 +19,7 @@ footer{
 }
 p {
     color: #8B8B8B;
-    font-family:Pingfang;
-        src:url(resource/PingFang.ttc);
+    font-family:sans-serif;
 }
 
 oh {
