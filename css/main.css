@@ -130,8 +130,16 @@ p {
     font-family: sans-serif;
 }
 
+/*
 .lang {
     position: absolute;
+    top: 5px;
+    right: 50px;
+    text-align: right;
+}
+*/
+.lang {
+float:right;
     top: 5px;
     right: 50px;
     text-align: right;
