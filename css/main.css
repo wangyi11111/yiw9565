@@ -25,6 +25,7 @@ h {
     margin-left: 80px;
 }
 .disk{
+/*    animation: softdisk 2.5s ease infinite;*/
 }
 @keyframes softdisk {
   0% {
