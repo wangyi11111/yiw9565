@@ -157,7 +157,62 @@ p {
     color: #8B8B8B;
     font-family: 'RobotoMono';
 }
+.loaderwrapper{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loading,
+.loading:before {
+		border: solid 8px rgba(34, 153, 204, .5);
+		border-radius: 10px;
+		display: inline-block;
+		height: 70px;
+		width: 70px;
+		-webkit-animation-duration: 1.1s;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+}
 
+.loading {
+		margin: 15px;
+		position: relative;
+		-webkit-animation-name: animation;
+}
+
+.loading:before {
+		content: '';
+		display: block;
+		left: -8px;
+		position: absolute;
+		top: -8px;
+		-webkit-animation-name: animationreverse;
+}
+
+@-webkit-keyframes animation {
+		0%, 60% {
+				-webkit-transform: rotate(0deg);
+		}
+		100% {
+				-webkit-transform: rotate(90deg);
+		}
+}
+
+@-webkit-keyframes animationreverse {
+		0%, 60% {
+				-webkit-transform: rotate(180deg);
+		}
+		100% {
+				-webkit-transform: rotate(0deg);
+		}
+}
 .lang {
     position: absolute;
     top: 5px;
