@@ -15,11 +15,18 @@ h {
     text-align: right;
 }
 
-.resume {
+.lang {
     position: absolute;
-    left: 975px;
-    top: 280px;
-    font-size: 40px;
+    top: 5px;
+    right: 50px;
+    text-align: right;
+}
+
+.resume{
+float: right;
+margin-right: 205px;
+    margin-top: 255px;
+    font-size: 40px; 
 }
 
 .resume.click {

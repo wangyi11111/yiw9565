@@ -42,9 +42,9 @@ i{
 }
 
 .resume{
-    position: absolute;
-    left:975px;
-    top:280px;
+float: right;
+margin-right: 205px;
+    margin-top: 255px;
     font-size: 40px; 
 }
 
