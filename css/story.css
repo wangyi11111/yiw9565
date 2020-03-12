@@ -9,7 +9,22 @@ h{
     font-size: 200px;
     float: left;
 /*    color: #8B8B8B;*/
-       
+   
+    
+}
+body a svg {
+    fill:#d8d8d8;
+    width:34px;
+    position:fixed;
+    right:30px;
+    top:40px;
+}
+body a svg:hover{
+    fill: white;
+    width:34px;
+    position:fixed;
+    right:30px;
+    top:40px;
 }
 header{
      background-color: #8B8B8B;
