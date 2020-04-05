@@ -9,18 +9,48 @@ h {
     font-size: 26px;
 }
 
-.poster {
-    margin: 0 auto;
-    height: auto;
-    width:500px;
-}
-.tag1{
-    margin: -220px 0 0 780px;
+
+h i{
     float: left;
+/*    background-color: aqua;*/
+}
+
+.proj1 {
+        float: left;
+
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.proj1 .poster{
+    width:50%;
+    height: auto;
+    position:absolute;
+    left:25%;
+    top:100px;
+}
+
+.proj2 {
+    float: right;
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+}
+.proj2 .poster{
+    width:50%;
+    position:absolute;
+    left:25%;
+    top:100px;
+}
+
+.tag1 {
     text-align: left;
     line-height: 10px;
-    font-size:
+margin: 400px 30px;
 }
+
 h1 {
     font-family: futura;
     src: url(resource/Futura.ttc);
